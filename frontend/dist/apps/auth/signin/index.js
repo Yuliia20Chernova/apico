@@ -1,5 +1,5 @@
 // Your app JavaScript code.
-let name = document.querySelector('#name');
+let name = document.querySelector ('#name');
 let adress = document.querySelector('#adress');
 let password = document.querySelector('#password');
 
