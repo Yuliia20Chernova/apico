@@ -1,0 +1,12 @@
+#hero.container-fluid {
+    width: 100vw;
+    margin: 0;
+
+}
+
+img{
+    width: 100vw;
+    height: 50%;
+    position: relative;
+    background-size: cover;
+}

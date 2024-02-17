@@ -1,0 +1,11 @@
+.btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 1.2em;
+    display: flex;
+    cursor: pointer;
+    
+}

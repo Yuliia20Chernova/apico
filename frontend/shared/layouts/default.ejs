@@ -10,11 +10,20 @@
     
     <title><%- title %></title>
 </head>
-<body class="a-container bg-light">
+<body class="a-container d-flex flex-column bg-light h-100" >
+
+    <header id="header" class="row bg-dark fixed-top">
+        <%- include("../partials/header")%>
+    </header>
+
     
-    <main class="a-body ">
+    <main class="row bg-light ">
         <%- body %>
     </main>
+
+    <footer class="row">
+        <%- include("../partials/footer") %>
+    </footer>
 
     
 
